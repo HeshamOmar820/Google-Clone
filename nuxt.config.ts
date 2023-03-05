@@ -2,7 +2,8 @@
 import { Body } from './.nuxt/components.d';
 export default defineNuxtConfig({
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        'nuxt-icon',
     ],
     app: {
         head: {
