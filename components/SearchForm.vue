@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-36" @submit.prevent="searching">
+    <div class="mt-36 flex-1" @submit.prevent="searching">
         <form class="flex flex-col items-center flex-grow">
             <!--<img src="https://www.google.com.eg/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">-->
             <img src="../assets/imgs/logo.png" class="w-80" alt="Google logo">

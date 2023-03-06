@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full divide-y-[1px] divide-gray-300 bg-gray-200 text-sm text-gray-600 font-semibold absolute bottom-0">
+    <footer class="w-full divide-y-[1px] divide-gray-300 bg-gray-200 text-sm text-gray-600 font-semibold">
         <div class="px-8 py-3">
             <p>Egypt</p>
         </div>
@@ -16,7 +16,7 @@
                 <p>Settings</p>
             </div>
         </div>
-        <div class="flex justify-center items-center flex-col px-8 py-1">
+        <div class="flex justify-center items-center flex-col px-8 py-2">
             <p>
                 © {{date}} |<a href="https://github.com/HeshamOmar820" target="_blank"> Hesham Omar</a> 
             </p>
