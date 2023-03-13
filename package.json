@@ -11,5 +11,9 @@
     "@nuxtjs/tailwindcss": "^6.4.1",
     "nuxt": "^3.2.3",
     "nuxt-icon": "^0.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "googleapis": "^112.0.0"
   }
 }
