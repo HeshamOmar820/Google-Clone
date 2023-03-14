@@ -9,7 +9,7 @@
             class="w-20 sm:w-[120px] cursor-pointer"
             @click.native="$router.push('/')"
             >
-            <form class="flex flex-grow px-6 py-2 ml-5 mr-5 border border-gray-200 rounded-full shadow-md max-w-3xl items-center" @submit.prevent="searching">
+            <form class="flex flex-grow px-6 py-2 ml-5 mr-5 border border-gray-200 rounded-full shadow-md max-w-3xl items-center">
                 <input
                     type="text"
                     name="q"
