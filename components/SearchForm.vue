@@ -26,6 +26,7 @@
 
 <script>
 export default{
+    
     data() {
         return {
             searchValue: '',
@@ -33,9 +34,13 @@ export default{
     },
     methods: {
         searching() {
+            console.log(this.searchValue)
             const router = this.$router;
+            console.log({router});
+
             if (!this.searchValue) return;
-            router.push(`/search?term=${this.searchValue}`);
+            router.push({ path: '/search', query: { q: this.searchValue }});
+        
         }
     },
 }
