@@ -18,7 +18,7 @@
             </div>
             <div class="flex space-x-5 justify-center mt-8 ">
                 <button @click="searching" class="bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md">Google Search</button>
-                <button @click="searching" class="bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md">I'm Feeling Lucky</button>
+                <button @click="lucky" class="bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md">I'm Feeling Lucky</button>
             </div>
         </form>
     </div>
@@ -41,6 +41,9 @@ export default{
             if (!this.searchValue) return;
             router.push({ path: '/search', query: { q: this.searchValue }});
         
+        },
+        lucky() {
+            window.location.href = "https://www.google.com/doodles";
         }
     },
 }
